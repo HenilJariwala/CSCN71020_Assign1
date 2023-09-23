@@ -24,8 +24,10 @@ void main() {
 	case 2:
 		subtract();
 		break;
+	default:
+		printf("Invalid choice");
 	}
-	
+		
 }
 
 void printWelcomeMenu() {
